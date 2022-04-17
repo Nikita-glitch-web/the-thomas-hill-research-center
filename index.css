@@ -68,13 +68,31 @@ p {
 }
 
 .text-box-before-iphone-img {
+  padding-top: 30px;
 }
 
 .big-title {
   font-family: "Oswald", sans-serif;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.09em;
   font-size: 46px;
   font-weight: 800;
+  text-align: center;
 }
 
-.sub-text;
+.sub-text {
+  line-height: 1.6em;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+}
+
+.iphone-background-img-box {
+  background-image: url(./images/iphone-background.webp);
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  height: 534px;
+  margin-top: 40px;
+}
