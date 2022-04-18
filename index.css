@@ -44,6 +44,11 @@ p {
   margin-right: 20px;
 }
 
+.nav-button:hover {
+  color: blue;
+  cursor: pointer;
+}
+
 .page-header-content {
   display: flex;
   justify-content: space-between;
@@ -55,7 +60,8 @@ p {
 }
 
 .box-with-nav {
-  margin-top: 20px;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .black-line {
@@ -95,4 +101,55 @@ p {
   background-size: cover;
   height: 534px;
   margin-top: 40px;
+}
+
+.big-white-text-box {
+  width: 1000px;
+  background: white;
+  height: 600px;
+  position: absolute;
+  margin-top: 350px;
+  transform: translateX(25%);
+}
+
+.white-title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.09em;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.first-big-text {
+  line-height: 2em;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 40px;
+}
+
+.second-big-text {
+  line-height: 2em;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 40px;
+}
+
+.purple-button {
+  width: 145px;
+  height: 50px;
+  background: #3d4dad;
+  border: 1px solid #3d4dad;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-purple-box {
+  display: flex;
+  justify-content: center;
 }
