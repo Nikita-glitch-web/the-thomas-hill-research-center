@@ -103,13 +103,17 @@ p {
   margin-top: 40px;
 }
 
+.big-white-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .big-white-text-box {
   width: 1000px;
   background: white;
   height: 600px;
-  position: absolute;
-  margin-top: 350px;
-  transform: translateX(25%);
+  position: relative;
+  top: 350px;
 }
 
 .white-title {
