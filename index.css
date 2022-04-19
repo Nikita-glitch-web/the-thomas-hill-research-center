@@ -103,17 +103,25 @@ p {
   margin-top: 40px;
 }
 
+.big-white-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .big-white-text-box {
   width: 1000px;
   background: white;
   height: 600px;
   position: relative;
   top: 350px;
+<<<<<<< HEAD
 }
 
 .big-white-box-wrapper {
   display: flex;
   justify-content: center;
+=======
+>>>>>>> 8ee11abd919dae7851b3ffe4b60aaf73734b68df
 }
 
 .white-title {
@@ -204,4 +212,5 @@ p {
   color: black;
   font-weight: 600;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
