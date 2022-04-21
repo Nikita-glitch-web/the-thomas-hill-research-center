@@ -114,14 +114,11 @@ p {
   height: 600px;
   position: relative;
   top: 350px;
-<<<<<<< HEAD
 }
 
 .big-white-box-wrapper {
   display: flex;
   justify-content: center;
-=======
->>>>>>> 8ee11abd919dae7851b3ffe4b60aaf73734b68df
 }
 
 .white-title {
@@ -213,4 +210,137 @@ p {
   font-weight: 600;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.latest-public-title {
+  max-width: 1500px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.latest-public-content-title {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.09em;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.latest-public-content-wrapper {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-button-img {
+  display: inline-block;
+  transform: rotate(180deg);
+  background-size: cover;
+}
+
+.latest-public-text {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 24px;
+}
+
+.second-purple-button {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.block-with-big-img {
+  max-width: 1500px;
+  height: 500px;
+  background-image: url(./images/iphone-background.webp);
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.email-title {
+  font-size: 27px;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.email-input-content {
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+}
+
+.email-row {
+  width: 550px;
+  height: 50px;
+  background: none;
+  border: 1px solid black;
+}
+
+.email-row:hover {
+  background: none;
+  border: 2px solid black;
+}
+
+.join-button {
+  width: 200px;
+  background: none;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.join-button:hover {
+  background: #3d4dad;
+  border: 1px solid #3d4dad;
+  color: white;
+  cursor: pointer;
+}
+
+.adress-text-box {
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.adress-text {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.black-line-second {
+  max-width: 1500px;
+  width: 100%;
+}
+
+.wix-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.last-box-before-footer {
+  text-align: center;
+}
+
+.adress-text-second {
+  padding-top: 22px;
 }
