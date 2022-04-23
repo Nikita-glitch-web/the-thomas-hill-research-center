@@ -77,6 +77,10 @@ p {
   padding-top: 30px;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .big-title {
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.09em;

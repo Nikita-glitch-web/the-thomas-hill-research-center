@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.page-content-title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-button:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.page-header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header-box {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.box-with-nav {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.black-line {
+  background: black;
+  max-width: 1700px;
+  width: 100%;
+  margin: 0 auto;
+  height: 1px;
+  margin-top: 30px;
+}
+
+.iphone-background-img-box {
+  background-image: url(./images/iphone-background.webp);
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  height: 534px;
+  margin-top: 40px;
+}
+
+.big-white-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.big-white-text-box {
+  width: 1000px;
+  background: white;
+  height: 600px;
+  position: relative;
+  top: 350px;
+}
+
+.big-white-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.white-title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.09em;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.first-big-text {
+  line-height: 2em;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 40px;
+}
+
+.second-big-text {
+  line-height: 2em;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 40px;
+}
+
+.purple-button {
+  width: 145px;
+  height: 50px;
+  background: #3d4dad;
+  border: 1px solid #3d4dad;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-purple-box {
+  display: flex;
+  justify-content: center;
+}
+
+.block-with-news-ivents {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 500px;
+}
+
+.block-with-news-title {
+  position: relative;
+  max-width: 1500px;
+}
+
+.iphone-background-img-box-bio-part {
+  background-image: url(./images/something-bio-img.webp);
+}
+
+.first-big-text-second-page {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-big-text-little-second-page {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 60px;
+}
+
+.white-title-black-title {
+  font-size: 46px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.09em;
+  color: black;
+  font-weight: 600;
+}
