@@ -159,6 +159,7 @@ p {
   color: white;
   text-align: center;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .button-purple-box {
@@ -291,11 +292,13 @@ p {
   height: 50px;
   background: none;
   border: 1px solid black;
+  padding-left: 15px;
 }
 
 .email-row:hover {
   background: none;
   border: 2px solid black;
+  border-radius: 1px;
 }
 
 .join-button {
