@@ -392,6 +392,22 @@ p {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .arrow-button-img {
+    visibility: hidden;
+  }
+
+  .button-arrow-img {
+    visibility: hidden;
+  }
+  .block-with-big-img {
+    background-position: center;
+    height: 226px;
+  }
+
+  .email-input-content {
+    display: flex;
+    flex: wrap;
+  }
 }
 
 @media (max-width: 900px) {
