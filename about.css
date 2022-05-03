@@ -265,3 +265,167 @@ p {
 .box-with-people {
   margin-top: 40px;
 }
+
+.other-text {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 60px;
+}
+.email-input-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 580px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.join-button {
+  width: 300px;
+  background: none;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.email-row {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.adress-text-box {
+  text-align: center;
+  display: block;
+}
+
+.black-line-second {
+  max-width: 1500px;
+  width: 100%;
+}
+
+.wix-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.last-box-before-footer {
+  text-align: center;
+}
+
+.adress-text-second {
+  padding-top: 22px;
+}
+.email-row {
+  width: 550px;
+  height: 50px;
+  background: none;
+  border: 1px solid black;
+  padding-left: 15px;
+}
+
+.email-row:hover {
+  background: none;
+  border: 2px solid black;
+  border-radius: 1px;
+}
+
+.join-button {
+  width: 200px;
+  background: none;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.join-button:hover {
+  background: #3d4dad;
+  border: 1px solid #3d4dad;
+  color: white;
+  cursor: pointer;
+}
+
+.adress-text-box {
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.adress-text {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.email-title {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .iphone-background-img-box-bio-part {
+    max-width: 600px;
+    background-position: center;
+  }
+
+  .big-white-text-box {
+    width: 95%;
+  }
+
+  .big-white-box-wrapper {
+    padding-bottom: 0px;
+  }
+  .first-big-text {
+    font-size: 13px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .second-big-text {
+    font-size: 13px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .box-with-news-ivents-title {
+    visibility: hidden;
+  }
+  .other-text {
+    visibility: hidden;
+  }
+  .company-team-box {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 550px;
+  }
+  .email-input-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 580px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .join-button {
+    width: 300px;
+    background: none;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .email-row {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .adress-text-box {
+    text-align: center;
+    display: block;
+  }
+}

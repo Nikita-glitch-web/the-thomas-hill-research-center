@@ -406,7 +406,28 @@ p {
 
   .email-input-content {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
+    max-width: 580px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .join-button {
+    width: 300px;
+    background: none;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .email-row {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .adress-text-box {
+    text-align: center;
+    display: block;
   }
 }
 
@@ -420,5 +441,30 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .email-input-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 580px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .join-button {
+    width: 300px;
+    background: none;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .email-row {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .adress-text-box {
+    text-align: center;
+    display: block;
   }
 }
