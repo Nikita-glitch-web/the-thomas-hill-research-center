@@ -345,6 +345,10 @@ p {
   cursor: pointer;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .adress-text-box {
   max-width: 750px;
   margin: 0 auto;
