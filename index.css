@@ -115,7 +115,7 @@ p {
 .big-white-text-box {
   width: 1000px;
   background: white;
-  height: 600px;
+  height: 100%;
   position: relative;
   top: 350px;
 }
