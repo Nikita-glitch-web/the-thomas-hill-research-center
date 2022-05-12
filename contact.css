@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.page-content-title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-button:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.page-header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header-box {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.box-with-nav {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.black-line {
+  background: black;
+  max-width: 1700px;
+  width: 100%;
+  margin: 0 auto;
+  height: 1px;
+  margin-top: 30px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section-wrapper {
+  margin-top: 80px;
+}
+.iphone-background-img-box {
+  background-image: url(./images/molekyls-img.webp);
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  height: 434px;
+}
+
+.big-white-box-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.black-big-title {
+  font-size: 46px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.09em;
+  text-align: center;
+}
+
+.big-white-text-box {
+  width: 1000px;
+  background: white;
+  height: 100%;
+  position: relative;
+}
+
+.big-white-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.big-sub-text {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.adress-text-box {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.adress-text {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.adress-text-first {
+  padding-right: 18px;
+}
+
+.adress-text-second {
+  padding-left: 15px;
+}
+
+.little-black-line {
+  background: black;
+  max-width: 550px;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
+}
+
+.news-title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.09em;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.box-with-news-ivents-title {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
